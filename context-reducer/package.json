@@ -10,7 +10,7 @@
   "license": "ISC",
   "author": "dush-ik",
   "type": "module",
-  "main": "index.tsx",
+  "main": "dist/bundle.js",
   "scripts": {
     "start": "webpack serve --open",
     "build": "webpack"
