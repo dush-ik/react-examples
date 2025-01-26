@@ -20,10 +20,10 @@ jobs:
     - name: Use Node.js ${{ matrix.node-version }}
       uses: actions/setup-node@v4
       with:
-        working-directory: context-reducer/,
         node-version: ${{ matrix.node-version }}
 
     - name: Build
       run: |
+        cd context-reducer
         npm install
         npx webpack
